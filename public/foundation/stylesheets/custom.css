@@ -1,0 +1,6 @@
+body {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: repeat url('/images/background.gif') top center;
+	background-size: cover;
+}
