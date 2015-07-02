@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'WelcomeController@index');
+Route::post('/', array('uses' => 'WelcomeController@shorten'));
+Route::get('/{short}', 'WelcomeController@redirect');

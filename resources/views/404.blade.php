@@ -13,6 +13,15 @@
 			</div>
 		</div>
 		<div class="row">
+			<br/>
+			<div class="small-12 column">
+				<div data-alert class="alert-box alert radius">
+					The requested URL does not exist!
+					<a href="#" class="close">&times;</a>
+				</div>
+			</div>
+		</div>
+		<div class="row">
 			<div class="small-12 column">
 			<form data-abide method="post">
 				<fieldset>

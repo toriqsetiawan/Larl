@@ -14,9 +14,19 @@
 		</div>
 		<div class="row">
 			<div class="small-12 column">
+				<div class="panel radius text-center">
+					<h5>Your URL (<a href="{{$shortend->url}}">{{$shortend->url}}</a>) has been shortened to the URL below:</h5>
+					<br/>
+						<h1><a href="{{Request::root()}}/{{$shortend->short}}">{{Request::root()}}/{{$shortend->short}}</a></h1>
+					<br/>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="small-12 column">
 			<form data-abide method="post">
 				<fieldset>
-					<legend class="radius">Enter the URL you want to shorten below</legend>
+					<legend class="radius">Shorten another URL</legend>
 						<label>
 							<input type="hidden" name="_token" value="{{ csrf_token() }}">
 							<input class="radius" name="url" type="url" required placeholder="Example: http://www.google.com">
