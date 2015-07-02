@@ -12,7 +12,7 @@ Use the command "composer update" in the root folder.
 Create a fresh mysql database.
 Import the sql file located in the "sql" folder.
 Insert it's variables in the ".env" file located in the root.
-Give write permission to the "resources" folder.
+Give write permission to the "storage" folder.
 You should be all set to go!
 
 
