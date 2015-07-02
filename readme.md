@@ -4,7 +4,7 @@ LARL is a free and open source URL shortener based on Laravel 5.
 
 ## Official Documentation
 
-[You can check it here on a subdomain of mine](http://larl.neveshtar.com)
+[You can check it here on a subdomain of mine](http://larl.neveshtar.com/public)
 (Seems Laravel 5 is now using 5.5.9 as the minimum requirement. This is why my server is returning a blank page. Guess you have to run it locally until I upgrade PHP on my server. Don't want to rush into the upgrade and break up the websites I'm hosting.)
 
 The installation is fairly easy. 
